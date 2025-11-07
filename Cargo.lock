@@ -163,6 +163,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "1261fe7e33c73b354eab43b1273a57c8f967d0391e80353e51f764ac02cf6775"
 
 [[package]]
+name = "one_period_shortage"
+version = "0.1.3"
+dependencies = [
+ "pyo3",
+ "statrs",
+]
+
+[[package]]
 name = "paste"
 version = "1.0.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -393,14 +401,6 @@ checksum = "b828f995bf1e9622031f8009f8481a85406ce1f4d4588ff746d872043e855690"
 dependencies = [
  "bytemuck",
  "safe_arch",
-]
-
-[[package]]
-name = "wrapper_alternative"
-version = "0.1.2"
-dependencies = [
- "pyo3",
- "statrs",
 ]
 
 [[package]]
